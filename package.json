@@ -1,0 +1,53 @@
+{
+  "name": "langa-backend",
+  "version": "0.0.0",
+  "description": "Backend for Langa website",
+  "homepage": "langa.io",
+  "author": {
+    "name": "Weyland Joyner",
+    "email": "weyland@langa.io",
+    "url": ""
+  },
+  "main": "index.js",
+  "keywords": [
+    "trails",
+    "trailsjs"
+  ],
+  "dependencies": {
+    "lodash": "^4.0",
+    "mandrill-api": "^1.0.45",
+    "trailpack-core": "^1.0.0-beta-3",
+    "trailpack-hapi": "^1.0.0-beta-3",
+    "trailpack-repl": "^1.0.0-beta-3",
+    "trailpack-router": "^1.0.0-beta-4",
+    "trails": "^1.0.0-beta-1",
+    "trails-controller": "^1.0.0-beta-2",
+    "trails-model": "^1.0.0-beta-2",
+    "trails-policy": "^1.0.1",
+    "trails-service": "1.0.0-beta-2",
+    "waterline-sqlite3": "^1.0.0",
+    "winston": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint-config-trails": "latest",
+    "eslint": "^1.10",
+    "mocha": "^2.3",
+    "supertest": "^1.1"
+  },
+  "bundledDependencies": [
+    "lodash",
+    "trailpack-core",
+    "trails"
+  ],
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "langateam/langa-backend",
+  "license": "MIT"
+}
