@@ -13,6 +13,10 @@ module.exports = {
 
   DefaultController: {
     info: [ ]
+  },
+
+  EmailController: {
+    sendEmail: 'isLanga'
   }
 
 }
