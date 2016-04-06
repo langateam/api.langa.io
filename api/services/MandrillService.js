@@ -22,8 +22,8 @@ module.exports = class MandrillService extends Service {
 
     const params = {
       "message": {
-        "from_email": "weyland@balderdash.io",
-        "to": [{"email": "weyland@balderdash.io"}],
+        "from_email": "weyland@mailer.langa.io",
+        "to": [{"email": "weyland@mailer.langa.io"}],
         "subject": "Mandrill Test Email",
         "text": "Working on Mandrill API"
       }
