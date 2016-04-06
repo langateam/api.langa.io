@@ -12,11 +12,11 @@
 module.exports = {
 
   DefaultController: {
-    info: [ ]
+    info: ['EmailPolicy.isLanga']
   },
 
   EmailController: {
-    sendEmail: 'isLanga'
+    sendEmail: ['EmailPolicy.isLanga']
   }
 
 }

@@ -1,3 +1,3 @@
 'use strict'
 
-exports.isLanga = require('./isLanga')
+exports.EmailPolicy = require('./EmailPolicy')
