@@ -47,7 +47,7 @@ module.exports = class MandrillService extends Service {
     return new Promise((resolve, reject) => {
       this.log.info('sending email', email)
       this.mandrill.messages.sendTemplate(email, resolve, err => {
-        this.log.warn('email received from mandrill', err)
+        this.log.warn('error received from mandrill', err)
         reject(err)
       })
     })
