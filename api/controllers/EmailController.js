@@ -18,6 +18,16 @@ module.exports = class EmailController extends Controller {
     formData.ip = request.headers['x-forwarded-for'] || request.info.remoteAddress
     formData.referrer = request.info.referrer
 
-    reply(this.app.services.MandrillService.sendEmail(formData))
+    reply(this.app.services.MandrillService.sendEmail(formData)
+      .then(result => {
+        if (Array.isArray(result)) {
+          delete result[0]._id
+          return result[0]
+        }
+        else {
+          return result
+        }
+      })
+    )
   }
 }
