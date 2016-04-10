@@ -23,6 +23,11 @@ module.exports = [
   {
     method: 'POST',
     path: '/email',
-    handler: 'EmailController.sendEmail'
+    handler: 'EmailController.sendEmail',
+    config: {
+      cors: {
+        origin: [ '*.langa.io', '*.balderdash.io', '*.trailsjs.io' ]
+      }
+    }
   }
 ]

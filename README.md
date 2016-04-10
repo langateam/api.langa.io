@@ -1,2 +1,3 @@
-# langa.io-server
-Langa.io Server built with Trails.js
+# api.langa.io
+
+langa.io API built with [Trails.js](http://trailsjs/io)
