@@ -13,6 +13,6 @@ module.exports = class EmailController extends Controller {
    * Return some info about this application
    */
   sendEmail (request, reply) {
-    reply(this.app.services.MandrillService.sendEmail())
+    reply(this.app.services.MandrillService.sendEmail(request.payload))
   }
 }

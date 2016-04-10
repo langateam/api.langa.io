@@ -11,10 +11,6 @@
  */
 module.exports = {
 
-  DefaultController: {
-    info: ['EmailPolicy.isLanga']
-  },
-
   EmailController: {
     sendEmail: ['EmailPolicy.isLanga']
   }

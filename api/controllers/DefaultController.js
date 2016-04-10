@@ -15,6 +15,7 @@ module.exports = class DefaultController extends Controller {
    * Return some info about this application
    */
   info (request, reply) {
+    this.log.info('info request')
     reply(this.app.services.DefaultService.getApplicationInfo())
   }
 }
