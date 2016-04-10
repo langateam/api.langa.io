@@ -10,9 +10,4 @@
  * @see http://trailsjs.io/doc/config/policies
  */
 module.exports = {
-
-  EmailController: {
-    sendEmail: ['EmailPolicy.isLanga']
-  }
-
 }
