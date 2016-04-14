@@ -6,7 +6,7 @@
   "author": {
     "name": "Weyland Joyner",
     "email": "weyland@langa.io",
-    "url": ""
+    "url": "https://github.com/weyj4"
   },
   "main": "index.js",
   "keywords": [
@@ -49,6 +49,6 @@
   "eslintConfig": {
     "extends": "trails"
   },
-  "repository": "langateam/langa-backend",
+  "repository": "langateam/api.langa.io",
   "license": "MIT"
 }
