@@ -5,7 +5,6 @@
 exports.env = require('./env')
 exports.log = require('./log')
 exports.main = require('./main')
-exports.local = require('./local')
 
 exports.database = require('./database')
 exports.footprints = require('./footprints')
