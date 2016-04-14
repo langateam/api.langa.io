@@ -37,10 +37,26 @@ module.exports = class MandrillService extends Service {
         }],
         subject: formData.subject,
         merge_language: 'handlebars',
-        global_merge_vars: [{
-          name: 'message',
-          content: formData.message
-        }]
+          global_merge_vars: [{
+            name: 'email',
+            content: formData.email
+          }, {
+            name: 'subject',
+            content: formData.subject || 'Hello from Langa!'
+          }, {
+            name: 'message',
+            content: formData.message
+          }, {
+            name: 'ip',
+            content: formData.ip
+          }, {
+            name: 'origin',
+            content: formData.origin
+          }, {
+            name: 'referrer',
+            content: formData.referrer
+          }
+        ]
       }
     }
 
