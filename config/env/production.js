@@ -2,12 +2,6 @@ const winston = require('winston')
 
 module.exports = {
 
-  trailpack: {
-    disabled: [
-      'repl'
-    ]
-  },
-
   log: {
     logger: new winston.Logger({
       level: 'info',
