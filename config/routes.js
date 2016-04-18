@@ -17,7 +17,7 @@ module.exports = [
     handler: 'EmailController.sendEmail',
     config: {
       cors: {
-        origin: [ '*.langa.io', 'langa.io', '*.trailsjs.io' ]
+        origin: [ 'https://www.langa.io', 'https://langa.io' ]
       }
     }
   }
