@@ -4,5 +4,5 @@ module.exports = {
     require('trailpack-repl'),
     require('trailpack-router'),
     require('trailpack-hapi')
-  ],
+  ]
 }
