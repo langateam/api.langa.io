@@ -4,9 +4,9 @@
   "description": "Backend for Langa website",
   "homepage": "langa.io",
   "author": {
-    "name": "Weyland Joyner",
-    "email": "weyland@langa.io",
-    "url": "https://github.com/weyj4"
+    "name": "Langa Team",
+    "email": "hello@langa.io",
+    "url": "https://github.com/langateam"
   },
   "main": "index.js",
   "keywords": [
