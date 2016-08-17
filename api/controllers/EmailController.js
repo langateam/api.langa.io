@@ -21,7 +21,7 @@ module.exports = class EmailController extends Controller {
     reply(this.app.services.MandrillService.sendEmail(formData)
       .then(result => {
         if (Array.isArray(result)) {
-          delete result[0]._id
+          delete result[0]['_id']
           return result[0]
         }
         else {
