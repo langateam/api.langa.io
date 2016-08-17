@@ -17,7 +17,11 @@ module.exports = [
     handler: 'EmailController.sendEmail',
     config: {
       cors: {
-        origin: [ 'https://www.langa.io', 'https://langa.io' ]
+        origin: [ 'https://www.langa.io',
+                  'https://langa.io',
+                  'http://www.langa-io-staging.herokuapp.com',
+                  'http://langa-io-staging.herokuapp.com'
+                ]
       }
     }
   }
